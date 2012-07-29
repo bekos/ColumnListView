@@ -1,0 +1,22 @@
+ColumnListView
+This extension modified CListView to support multiple items per line.
+
+Yii default CListView displays one _view item per line. 
+With this widget you can display multiple label/value pairs per line.
+
+Requirements 
+
+Tested with Yii 1.1.10, but should work with previous versions too.
+
+Usage 
+
+Checkout source code to your project, for example to ext.widgets
+Use it, as any input widget.
+
+Example:
+
+$this->widget('ext.widgets.ColumnListView', array(
+    'dataProvider' => $dataProvider,
+    'itemView' => '_view',
+    'columns' => 3
+));
