@@ -1,19 +1,19 @@
 <?php
 
 /**
- * ColumnListView class file.
+ * EColumnListView class file.
  *
  * @author Tasos Bekos <tbekos@gmail.com>
  * @copyright Copyright &copy; 2012 Tasos Bekos
  */
 /**
- * ColumnListView represents a list view in multiple columns.
+ * EColumnListView represents a list view in multiple columns.
  *
  * @author Tasos Bekos <tbekos@gmail.com>
  */
 Yii::import('zii.widgets.CListView');
 
-class ColumnListView extends CListView {
+class EColumnListView extends CListView {
 
     /**
      *

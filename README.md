@@ -1,4 +1,4 @@
-# ColumnListView
+# EColumnListView
 This extension modified CListView to support multiple items per line.
 
 Yii default CListView displays one _view item per line. 
@@ -19,7 +19,7 @@ Tested with Yii 1.1.10, but should work with previous versions too.
 
 ## Example:
 
-    $this->widget('ext.widgets.ColumnListView', array(
+    $this->widget('ext.widgets.EColumnListView', array(
         'dataProvider' => $dataProvider,
         'itemView' => '_view',
         'columns' => 3
