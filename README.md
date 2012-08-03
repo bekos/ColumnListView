@@ -2,7 +2,7 @@
 This extension modified CListView to support multiple items per line.
 
 Yii default CListView displays one _view item per line. 
-With this widget you can display multiple label/value pairs per line.
+With this widget you can display multiple items per line.
 
 ## Screenshot
 
