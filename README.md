@@ -15,7 +15,7 @@ Tested with Yii 1.1.10, but should work with previous versions too.
 ## Usage 
 
  * Checkout source code to your project, for example to ext.widgets
- * Use it, as any input widget.
+ * Use it, as any input widget. (Replace 'zii.widgets.CListView' with 'ext.widgets.EColumnListView')
 
 ## Example:
 
